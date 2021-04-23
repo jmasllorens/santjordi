@@ -7,7 +7,7 @@
 }
 
 body{
-    background-color:#D3DE32;
+    background-color:#ebf750;
     font-family:'Lato', sans-serif;
     font-weight: bold;
 }
@@ -17,14 +17,14 @@ body{
     position: fixed;
     width: 100%;
     top: 0%;
-    background:#D3DE32 ;
+    background:#ebf750 ;
 }
 
 .header {
     
     height: 80px;
     display: flex;
-    background-color:#D3DE32;
+    background-color:#ebf750;
     font-family: 'Goudy';
 
     
