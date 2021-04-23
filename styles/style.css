@@ -9,6 +9,7 @@
 body{
     background-color:#D3DE32;
     font-family:'Lato', sans-serif;
+    font-weight: bold;
 }
 
 
@@ -71,6 +72,8 @@ body{
     width: 100%;
     margin-top: 100px;
     height: 100%;
+    color:rgb(199, 0, 57)
+
     
 }
 
