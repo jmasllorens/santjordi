@@ -10,6 +10,7 @@ function cambiarPantallaLibro1(){
         }
     if(mainLibro1.style.display == "none"){
         mainLibro1.style.display = "block"
+        alert("Context: (1) Buenos Aires, 2016. (2) Primeres línies després d'uns 8 anys de bloqueig sense poder escriure.")
         }
     
 
