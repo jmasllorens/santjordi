@@ -2,6 +2,7 @@ alert("Aquesta és una pàgina interactiva (on i offline). Tria un títol, fes-m
 let mainPrincipal  = document.querySelector(".main-principal")
 let mainLibro1 = document.querySelector(".main-libro1")
 let mainLibro4 = document.querySelector(".main-libro4")
+let mainLibro2 = document.querySelector(".main-libro2")
 
 function cambiarPantallaLibro1(){
 
@@ -22,6 +23,17 @@ function cambiarPantallaLibro4(){
     if(mainLibro4.style.display == "none"){
         mainLibro4.style.display = "block"
         alert("Context: (1) Barcelona, 2019. (2) Primeres línies després de l'última visita a Argentina.")
+        }
+}
+
+function cambiarPantallaLibro2(){
+
+    if(mainPrincipal.style.display == "block"){
+        mainPrincipal.style.display = "none"
+        }
+    if(mainLibro2.style.display == "none"){
+        mainLibro2.style.display = "block"
+        alert("Context: Barcelona, 2017.")
         }
 }
 
